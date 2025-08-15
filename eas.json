@@ -13,6 +13,11 @@
     },
     "production": {
       "autoIncrement": true
+    },
+    "google-production": {
+      "android": {
+        "credentialsSource": "local"
+      }
     }
   },
   "submit": {

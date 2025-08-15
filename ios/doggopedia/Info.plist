@@ -28,7 +28,7 @@
         <key>CFBundleURLSchemes</key>
         <array>
           <string>doggopedia</string>
-          <string>com.yangliudev.doggopedia</string>
+          <string>com.doggopedia</string>
         </array>
       </dict>
     </array>

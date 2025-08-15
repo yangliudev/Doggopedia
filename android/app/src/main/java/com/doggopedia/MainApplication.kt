@@ -1,4 +1,4 @@
-package com.yangliudev.doggopedia
+package com.doggopedia
 
 import android.app.Application
 import android.content.res.Configuration

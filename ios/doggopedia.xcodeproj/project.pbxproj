@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FACCE166866E12A2B20644A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 940F824E5924FBCD0378C198 /* PrivacyInfo.xcprivacy */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		3D46C44A83DD03F31CEE7641 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9620A323F5BF8405597277B7 /* ExpoModulesProvider.swift */; };
+		27F32F43D46CC623E00DA16F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 000085D3D4DCD3B6FCE4EC08 /* PrivacyInfo.xcprivacy */; };
+		2F73899E7A92276531534253 /* libPods-doggopedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D62BC8507B48086C508F12 /* libPods-doggopedia.a */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		AFE83E40D00CC6318825745F /* libPods-doggopedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C72C54B1B935EF576BAE160 /* libPods-doggopedia.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		C4E371865F7E6A20C685BA3C /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783D6B4BF66A4A601115B729 /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000085D3D4DCD3B6FCE4EC08 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = doggopedia/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* doggopedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doggopedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = doggopedia/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = doggopedia/Info.plist; sourceTree = "<group>"; };
-		37E83DEF7204BA8EC499D35B /* Pods-doggopedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggopedia.debug.xcconfig"; path = "Target Support Files/Pods-doggopedia/Pods-doggopedia.debug.xcconfig"; sourceTree = "<group>"; };
-		940F824E5924FBCD0378C198 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = doggopedia/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		9620A323F5BF8405597277B7 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-doggopedia/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		9C72C54B1B935EF576BAE160 /* libPods-doggopedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-doggopedia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		783D6B4BF66A4A601115B729 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-doggopedia/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		8DD4463C139063B07C0864D0 /* Pods-doggopedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggopedia.release.xcconfig"; path = "Target Support Files/Pods-doggopedia/Pods-doggopedia.release.xcconfig"; sourceTree = "<group>"; };
+		92D62BC8507B48086C508F12 /* libPods-doggopedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-doggopedia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = doggopedia/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B765325A226B2E5D28620BB5 /* Pods-doggopedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggopedia.debug.xcconfig"; path = "Target Support Files/Pods-doggopedia/Pods-doggopedia.debug.xcconfig"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		D1C1EAB0847221B27142D680 /* Pods-doggopedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-doggopedia.release.xcconfig"; path = "Target Support Files/Pods-doggopedia/Pods-doggopedia.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = doggopedia/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* doggopedia-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "doggopedia-Bridging-Header.h"; path = "doggopedia/doggopedia-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE83E40D00CC6318825745F /* libPods-doggopedia.a in Frameworks */,
+				2F73899E7A92276531534253 /* libPods-doggopedia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,7 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				940F824E5924FBCD0378C198 /* PrivacyInfo.xcprivacy */,
+				000085D3D4DCD3B6FCE4EC08 /* PrivacyInfo.xcprivacy */,
 			);
 			name = doggopedia;
 			sourceTree = "<group>";
@@ -62,9 +62,17 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9C72C54B1B935EF576BAE160 /* libPods-doggopedia.a */,
+				92D62BC8507B48086C508F12 /* libPods-doggopedia.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		647A5D9AA1F598D132E3D82A /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				83FB2B908787CCA37887B304 /* doggopedia */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -81,8 +89,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				F74BD06D0A9F4460159CAF14 /* Pods */,
-				B6A44E4602997DB8E7E73BA7 /* ExpoModulesProviders */,
+				E20CEB76D71474EBB88E7CE9 /* Pods */,
+				647A5D9AA1F598D132E3D82A /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -97,12 +105,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B6A44E4602997DB8E7E73BA7 /* ExpoModulesProviders */ = {
+		83FB2B908787CCA37887B304 /* doggopedia */ = {
 			isa = PBXGroup;
 			children = (
-				C69F6B06825F9B1F95281FF9 /* doggopedia */,
+				783D6B4BF66A4A601115B729 /* ExpoModulesProvider.swift */,
 			);
-			name = ExpoModulesProviders;
+			name = doggopedia;
 			sourceTree = "<group>";
 		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
@@ -114,19 +122,11 @@
 			path = doggopedia/Supporting;
 			sourceTree = "<group>";
 		};
-		C69F6B06825F9B1F95281FF9 /* doggopedia */ = {
+		E20CEB76D71474EBB88E7CE9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9620A323F5BF8405597277B7 /* ExpoModulesProvider.swift */,
-			);
-			name = doggopedia;
-			sourceTree = "<group>";
-		};
-		F74BD06D0A9F4460159CAF14 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				37E83DEF7204BA8EC499D35B /* Pods-doggopedia.debug.xcconfig */,
-				D1C1EAB0847221B27142D680 /* Pods-doggopedia.release.xcconfig */,
+				B765325A226B2E5D28620BB5 /* Pods-doggopedia.debug.xcconfig */,
+				8DD4463C139063B07C0864D0 /* Pods-doggopedia.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "doggopedia" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				F9619FDFB14DDC6E6A8DF3E2 /* [Expo] Configure project */,
+				199865042FF86C42BAF6EA3F /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				06D421BAFB7AFB71F9A2AA65 /* [CP] Embed Pods Frameworks */,
+				4EB66A6926C90BDCB6782A8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				0FACCE166866E12A2B20644A /* PrivacyInfo.xcprivacy in Resources */,
+				27F32F43D46CC623E00DA16F /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,24 +218,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" \"$PROJECT_ROOT\" ios absolute | tail -n 1)\"\nfi\n\nif [[ -z \"$CLI_PATH\" ]]; then\n  # Use Expo CLI\n  export CLI_PATH=\"$(\"$NODE_BINARY\" --print \"require.resolve('@expo/cli', { paths: [require.resolve('expo/package.json')] })\")\"\nfi\nif [[ -z \"$BUNDLE_COMMAND\" ]]; then\n  # Default Expo CLI command for bundling\n  export BUNDLE_COMMAND=\"export:embed\"\nfi\n\n# Source .xcode.env.updates if it exists to allow\n# SKIP_BUNDLING to be unset if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.updates\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.updates\"\nfi\n# Source local changes to allow overrides\n# if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
 		};
-		06D421BAFB7AFB71F9A2AA65 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-doggopedia/Pods-doggopedia-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-doggopedia/Pods-doggopedia-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +238,43 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		199865042FF86C42BAF6EA3F /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-doggopedia/expo-configure-project.sh\"\n";
+		};
+		4EB66A6926C90BDCB6782A8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-doggopedia/Pods-doggopedia-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-doggopedia/Pods-doggopedia-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */ = {
@@ -294,25 +313,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-doggopedia/Pods-doggopedia-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F9619FDFB14DDC6E6A8DF3E2 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-doggopedia/expo-configure-project.sh\"\n";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -321,7 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				3D46C44A83DD03F31CEE7641 /* ExpoModulesProvider.swift in Sources */,
+				C4E371865F7E6A20C685BA3C /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +330,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37E83DEF7204BA8EC499D35B /* Pods-doggopedia.debug.xcconfig */;
+			baseConfigurationReference = B765325A226B2E5D28620BB5 /* Pods-doggopedia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -354,7 +354,7 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yangliudev.doggopedia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doggopedia;
 				PRODUCT_NAME = doggopedia;
 				SWIFT_OBJC_BRIDGING_HEADER = "doggopedia/doggopedia-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -366,7 +366,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1C1EAB0847221B27142D680 /* Pods-doggopedia.release.xcconfig */;
+			baseConfigurationReference = 8DD4463C139063B07C0864D0 /* Pods-doggopedia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -385,7 +385,7 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yangliudev.doggopedia;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doggopedia;
 				PRODUCT_NAME = doggopedia;
 				SWIFT_OBJC_BRIDGING_HEADER = "doggopedia/doggopedia-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
